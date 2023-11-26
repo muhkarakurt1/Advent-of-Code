@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter",
+			"editor.formatOnSave": true
+		},
+		"python.terminal.launchArgs": [],
+		"black-formatter.args": [
+			"--line-length",
+			"300"
+		]
+	}
+}

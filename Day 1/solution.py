@@ -2,12 +2,12 @@ from collections import Counter
 
 # Reading the input and calculating total calory for each elf
 calory_dict = {}
-with open('input.txt') as f:
+with open("input.txt") as f:
     elf_number = 1
     calory_dict[elf_number] = 0
 
     for line in f:
-        if line == '\n':
+        if line == "\n":
             elf_number += 1
             calory_dict[elf_number] = 0
             continue
